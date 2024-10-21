@@ -1,0 +1,62 @@
+body {
+    background: url("https://www.lexr.com/wp-content/themes/lexr/assets/img/graphics/shape-dark-top-right.png") top -1px left calc(100% + 1px)/50% no-repeat,url("https://www.lexr.com/wp-content/themes/lexr/assets/img/graphics/shape-dark-bottom-left.png") top calc(100% + 1px) left -1px/50% no-repeat;
+    background-color: #002a24;
+}
+
+.bg-dark {
+    background-color: #002a24 !important;
+}
+
+.da-page-header {
+    border-bottom: 1px solid #01f9c417;
+}
+
+h1, label, p {
+    color: white !important;
+}
+
+.btn {
+    width: 100%;
+    background: #f6511d;
+    font-family: SetupGrotesk-Bold;
+    border: none;
+}
+
+.btn:hover {
+    background: black;
+    transition: transform ease .45s;
+}
+
+.offset-lg-3 > h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+div.da-form-group a {
+    text-decoration: none;
+    border-bottom: 1px solid #14a589;
+}
+
+.offset-lg-3, .offset-md-2, .offset-sm-1 {
+    margin-left: 0;
+}
+
+.offset-lg-3 {
+    margin: auto;
+    background: #002a24;
+    border-radius: 10px;
+    border: 1px solid #00c59c;
+    padding: 40px;
+    width: 500px;
+}
+
+#damain {
+    transform: translateY(50%);
+}
+
+.navbar-brand {
+    font-family: SetupGrotesk-Bold;
+    color: #00cda1;
+    text-decoration: none;
+}
