@@ -18,17 +18,19 @@ h1, label, p {
     color: white !important;
 }
 
+/* @layer overrides !important from lexr-toolset */
 @layer { 
     .btn {
-        width: 100%;
-        background: #f6511d;
-        font-family: SetupGrotesk-Bold;
-        border: none;
+        width: 100% !important;
+        background: #f6511d !important;
+        font-family: SetupGrotesk-Bold !important;
+        border: none !important;
+        border-radius: 0.375rem !important;
     }
     
     .btn:hover {
-        background: black;
-        transition: transform ease .45s;
+        background: black !important;
+        transition: transform ease .45s !important;
     }
 }
 
