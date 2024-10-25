@@ -18,16 +18,18 @@ h1, label, p {
     color: white !important;
 }
 
-.btn {
-    width: 100%;
-    background: #f6511d;
-    font-family: SetupGrotesk-Bold;
-    border: none;
-}
-
-.btn:hover {
-    background: black;
-    transition: transform ease .45s;
+@layer { 
+    .btn {
+        width: 100%;
+        background: #f6511d;
+        font-family: SetupGrotesk-Bold;
+        border: none;
+    }
+    
+    .btn:hover {
+        background: black;
+        transition: transform ease .45s;
+    }
 }
 
 .offset-lg-3 > h1 {
